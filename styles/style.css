@@ -60,12 +60,20 @@
 .popular-ul li {
     margin-top: 10px;
 }
-.popular-tour--image {
+/* .popular-tour--image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+} */
+
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
 }
+
 
 
 
