@@ -39,6 +39,8 @@
 }
 
 
+
+
 /* Banner section starts here */
 .banner {
   min-height: 500px;
@@ -58,6 +60,23 @@
   max-width: 650px;
   margin: 0 auto;
 }
+.banner-inputs {
+  border: 2px solid red;
+}
+.banner-inputs input , select  {
+  color: rgba(19, 19, 24, 0.50);
+border-radius: 8px;
+background-color:white;
+border-style: none;
+padding: 1rem;
+}
+.btn-banner {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 1rem;
+}
+
 /* Banner section ends here */
 
 
