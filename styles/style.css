@@ -61,7 +61,14 @@
   margin: 0 auto;
 }
 .banner-inputs {
-  border: 2px solid red;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.30);
+  border-radius: 8px;
 }
 .banner-inputs input , select  {
   color: rgba(19, 19, 24, 0.50);
@@ -69,12 +76,14 @@ border-radius: 8px;
 background-color:white;
 border-style: none;
 padding: 1rem;
+flex: 1;
 }
 .btn-banner {
   font-size: 1rem;
   font-weight: 700;
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 2rem;
+  flex: 1;
 }
 
 /* Banner section ends here */
