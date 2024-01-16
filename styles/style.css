@@ -151,10 +151,12 @@ select {
 .popular-tour--contents {
   flex: 1;
 }
-.popular-ul {
+.popular-ul ,
+.simple-ul{
   padding-left: 2rem;
 }
-.popular-ul li {
+.popular-ul li,
+.simple-ul li {
   margin-top: 0.5rem;
 }
 /* .popular-tour--image {
@@ -310,6 +312,28 @@ img {
 }
 /* Travel Accessories ends */
 
+/* simple section starts */
+.simple-container {
+  display: flex;
+  margin-top: 6rem;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+.simple-texts {
+  text-align: left;
+}
+.simple-texts,
+.simple-content {
+  flex: 1;
+}
+.simple-ul {
+  color: #131318;
+  font-weight: 700;
+}
+
+/* simple section ends */
+
+
 /* Newsletter Section */
 .newsletter-container {
   margin-top: 6rem;
@@ -417,7 +441,8 @@ img {
   .card-container,
   .newsletter-container,
   .banner-inputs,
-  .product-cards-container {
+  .product-cards-container,
+  .simple-container {
     flex-direction: column;
   }
 
