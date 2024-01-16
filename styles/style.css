@@ -38,10 +38,35 @@
   margin-top: 1.8rem;
 }
 
+
+/* Banner section starts here */
+.banner {
+  min-height: 500px;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');;
+  border-radius: 16px;
+  object-fit: cover;
+  padding: 6.1rem;
+  margin-top: 3rem;
+}
+.banner-title {
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description {
+  color: white;
+  max-width: 650px;
+  margin: 0 auto;
+}
+/* Banner section ends here */
+
+
+
 /* Our Popular Tours Section */
 .popular-tour {
   display: flex;
   gap: 3rem;
+  margin-top: 6rem;
 }
 .popular-tour--texts {
   text-align: left;
@@ -284,6 +309,39 @@ img {
   .card {
     width: 100%;
   }
+  /* choose your destination */
+  .destination-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7,300px);
+  }
+  .maldives {
+    grid-column: 1/ 2;
+  }
+  .indonesia {
+    grid-column: 1/ 2;
+
+  }
+  .srilanka {
+    grid-column: 1/ 2;
+  }
+  .north-america {
+    grid-column: 1/ 2;
+  }
+  .kashmir {
+    grid-column: 1/ 2;
+
+  }
+  .bangladesh {
+    grid-column: 1/ 2;
+
+  }
+  .bandarban {
+    grid-column: 1/ 2;
+
+  }
+
+
+
 
   /* footer section */
   .footer-section {
