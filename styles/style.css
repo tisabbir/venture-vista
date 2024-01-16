@@ -158,6 +158,22 @@ img {
     margin-bottom: 1rem;
     margin-top: 1.5rem;
 }
+.newsletter-banner {
+    width: 100%;
+    position: relative;
+}
+.btn-discount {
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 5.8rem;
+    right: -.5rem;
+    rotate: -45deg;
+}
+.btn-discount span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 /* footer Section */
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
@@ -211,7 +227,8 @@ img {
 
   /* flex column */
   .popular-tour,
-  .card-container {
+  .card-container,
+  .newsletter-container {
     flex-direction: column;
   }
 
