@@ -1,0 +1,68 @@
+/* Responsive for Tab */
+
+@media screen and (min-width : 600px) and (max-width : 992px) {
+
+    /* flex-column  */
+    .popular-tour,
+    .card-container,
+    .newsletter-container,
+    .banner-inputs,
+    .simple-container,
+    .product-cards-container
+     {
+      flex-direction: column;
+    }
+
+    .card ,
+  .product-cards {
+    width: 100%;
+  }
+  .banner-inputs * {
+    width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .nav-container i {
+    visibility: visible;
+  }
+  .banner {
+    padding: 3rem;
+  }
+  /* choose your destination */
+  .destination-container {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4, 300px);
+  }
+  .maldives {
+    grid-column: 1/ 2;
+  }
+  .indonesia {
+    grid-column: 2/ 3;
+  }
+  .srilanka {
+    grid-column: 1/ 2;
+  }
+  .north-america {
+    grid-column: 2/ 3;
+  }
+  .kashmir {
+    grid-column: 1/ 2;
+  }
+  .bangladesh {
+    grid-column: 2/ 3;
+  }
+  .bandarban {
+    grid-column: 1/ 2;
+  }
+
+ /* Button  */
+ .btn-discount {
+    font-size: 1.2rem;
+    font-weight: 700;
+ }
+ .btn-discount span {
+    font-size: 1rem;
+  }
+
+  }
