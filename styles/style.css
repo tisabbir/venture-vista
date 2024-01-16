@@ -383,7 +383,7 @@ img {
   }
 
   /* nav  */
-  i {
+  .nav-container i {
     visibility: visible;
   }
   nav {
