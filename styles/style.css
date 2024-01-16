@@ -111,7 +111,7 @@ img {
   height: 4rem;
   margin-bottom: 2rem;
 }
-.card h2 {
+.smaller-heading {
   color: #131318;
   font-size: 1.5rem;
   font-weight: 800;
@@ -121,6 +121,20 @@ img {
   margin: 0 auto;
   margin-top: 1.5rem;
 }
+
+
+/* Newsletter Section */
+.newsletter-container {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    gap: 1rem;
+}
+.newsletter-inputs {
+    border-radius: 16px;
+border: 1px solid #FF5400;
+ }
+
 /* footer Section */
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
@@ -157,7 +171,7 @@ img {
 .important-links img {
   height: 1.5rem;
 }
-hr {
+.footer-hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
   border-color: rgba(19, 19, 24, 0.1);
@@ -181,8 +195,6 @@ hr {
   .card{
     width: 100%;
   }
-/* Why Chose us section */
-
 
   /* footer section */
   .footer-section {
@@ -195,7 +207,7 @@ hr {
     height: 2.5rem;
     width: 2.5rem;
   }
-  hr {
+  .footer-hr {
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
   }
