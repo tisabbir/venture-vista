@@ -273,6 +273,48 @@ img {
   margin-top: 1.5rem;
 }
 
+/* Deals & Discounts section starts */
+.deal-container {
+  margin-top: 6rem;
+}
+.deal-des {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+.deal-banner {
+  background: url('../Images/deal-one.png');
+  padding: 3.5rem;
+  margin-top: 3rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: right;
+}
+.banner-two {
+  background: url('../Images/deal-two.png');
+  justify-content: left;
+}
+.offers {
+
+border: 2px solid white;
+background-color: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+max-width: 600px;
+border-radius: 16px;
+padding: 3rem;
+text-align: left;
+}
+.price-offer {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+
+
+/* Deals & Discounts section ends */
+
+
 /* Travel Accessories starts */
 .travel-container {
   margin-top: 6rem;
