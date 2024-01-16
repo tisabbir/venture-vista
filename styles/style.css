@@ -43,10 +43,12 @@
 
 /* Banner section starts here */
 .banner {
-  min-height: 500px;
+  /* min-height: 500px; */
   background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');;
   border-radius: 16px;
-  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 6.1rem;
   margin-top: 3rem;
 }
@@ -61,7 +63,6 @@
   margin: 0 auto;
 }
 .banner-inputs {
-  margin-top: 3rem;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
@@ -69,6 +70,8 @@
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.30);
   border-radius: 8px;
+  margin-top: 3rem;
+
 }
 .banner-inputs input , select  {
   color: rgba(19, 19, 24, 0.50);
@@ -330,11 +333,21 @@ img {
   /* flex column */
   .popular-tour,
   .card-container,
-  .newsletter-container {
+  .newsletter-container,
+  .banner-inputs {
     flex-direction: column;
   }
 
   .card {
+    width: 100%;
+  }
+  .banner {
+    padding: 2rem;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-inputs * {
     width: 100%;
   }
   /* choose your destination */
