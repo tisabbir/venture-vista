@@ -536,6 +536,16 @@ text-align: left;
     grid-column: 1/ 2;
   }
 
+
+  .btn-discount {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+ }
+ .btn-discount span {
+    font-size: 0.8rem;
+  }
+
   /* footer section */
   .footer-section {
     padding: 1.5rem;
