@@ -79,7 +79,7 @@
 .heading--orange {
   color: #ff5400;
 }
-i {
+.nav-container i {
   visibility: hidden;
 }
 /* Nav Section end */
