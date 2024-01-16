@@ -72,8 +72,15 @@
   text-decoration: none;
   color: black;
 }
+.nav-bar a li {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .heading--orange {
   color: #ff5400;
+}
+i {
+  visibility: hidden;
 }
 /* Nav Section end */
 
@@ -373,6 +380,14 @@ img {
   .newsletter-container,
   .banner-inputs {
     flex-direction: column;
+  }
+
+  /* nav  */
+  i {
+    visibility: visible;
+  }
+  nav {
+    display: none;
   }
 
   .card {
