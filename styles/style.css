@@ -72,6 +72,19 @@ img {
 
 /* Choose your destination section */
 
+.scene {
+    position: relative;
+}
+.scene-name {
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 /* Why Chose us section */
 .why-us {
   margin-top: 6rem;
