@@ -36,8 +36,46 @@
   padding: 1rem 2rem;
   border-style: none;
   margin-top: 1.8rem;
+  cursor: pointer;
 }
 
+/* Nav Section starts */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.name-logo {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.nav-heading {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.nav-logo {
+  height: 55px;
+  width: 45px;
+}
+
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+.heading--orange {
+  color: #ff5400;
+}
+/* Nav Section end */
 
 
 
@@ -284,23 +322,22 @@ img {
   background: rgba(19, 19, 24, 0.05);
   padding: 6rem;
 }
-.footer-head {
+/* .footer-head {
   display: flex;
   justify-content: center;
   gap: 1rem;
-}
-.footer-heading {
+} */
+
+/* .footer-heading {
   color: #131318;
   font-size: 2rem;
   font-weight: 800;
-}
-.heading--orange {
-  color: #ff5400;
-}
-.footer-logo {
+} */
+
+/* .footer-logo {
   height: 45px;
   width: 40px;
-}
+} */
 .footer-des {
   max-width: 770px;
   margin: 0 auto;
@@ -388,10 +425,10 @@ img {
   .footer-section {
     padding: 1.5rem;
   }
-  .footer-heading {
-    font-size: 1.75rem;
+  .nav-heading {
+    font-size: 1.5rem;
   }
-  .footer-logo {
+  .nav-logo {
     height: 2.5rem;
     width: 2.5rem;
   }
