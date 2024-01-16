@@ -24,7 +24,7 @@
 .descriptions {
   color: rgba(19, 19, 24, 0.7);
   font-weight: 400;
-  margin-top: 24px;
+  margin-top: 1rem;
 }
 .btn-primary {
   color: white;
@@ -33,15 +33,15 @@
   font-weight: 800;
   border-radius: 8px;
   background: #ff5400;
-  padding: 14px 30px;
+  padding: 1rem 2rem;
   border-style: none;
-  margin-top: 30px;
+  margin-top: 1.8rem;
 }
 
 /* Our Popular Tours Section */
 .popular-tour {
   display: flex;
-  gap: 50px;
+  gap: 3rem;
 }
 .popular-tour--texts {
   text-align: left;
@@ -51,10 +51,10 @@
   flex: 1;
 }
 .popular-ul {
-  padding-left: 30px;
+  padding-left: 2rem;
 }
 .popular-ul li {
-  margin-top: 10px;
+  margin-top: 0.5rem;
 }
 /* .popular-tour--image {
     width: 100%;
@@ -74,7 +74,7 @@ img {
 
 /* Why Chose us section */
 .why-us {
-  margin-top: 100px;
+  margin-top: 6rem;
 }
 .card-container {
   margin-top: 3rem;
@@ -85,9 +85,9 @@ img {
   row-gap: 1.5rem;
 }
 .card {
-  border-radius: 16px;
+  border-radius: 1rem;
   width: 45%;
-  padding: 32px;
+  padding: 2rem;
   text-align: left;
 }
 .card1 {
@@ -124,7 +124,7 @@ img {
 /* footer Section */
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
-  padding: 100px;
+  padding: 6rem;
 }
 .footer-head {
   display: flex;
@@ -146,20 +146,20 @@ img {
 .footer-des {
   max-width: 770px;
   margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
 }
 .important-links {
   display: flex;
-  gap: 30px;
+  gap: 2rem;
   justify-content: center;
 }
 .important-links img {
   height: 1.5rem;
 }
 hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   border-color: rgba(19, 19, 24, 0.1);
 }
 
@@ -167,24 +167,36 @@ hr {
 
 /* Responsive for mobile devices */
 @media screen and (max-width: 600px) {
-  /* our popular tour */
-  .popular-tour {
+    /* Shared */
+    * {
+        font-size: 12px;
+    }
+
+    /* flex column */
+  .popular-tour,
+  .card-container {
     flex-direction: column;
   }
 
+  .card{
+    width: 100%;
+  }
+/* Why Chose us section */
+
+
   /* footer section */
   .footer-section {
-    padding: 20px;
+    padding: 1.5rem;
   }
   .footer-heading {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
   .footer-logo {
-    height: 30px;
-    width: 30px;
+    height: 2.5rem;
+    width: 2.5rem;
   }
   hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 }
