@@ -370,7 +370,9 @@ text-align: left;
   color: #131318;
   font-weight: 700;
 }
-
+.watch {
+  font-weight: 700;
+}
 /* simple section ends */
 
 
